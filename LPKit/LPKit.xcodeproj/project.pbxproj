@@ -60,7 +60,24 @@
 		189D667920B26D84004A4592 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				189D66CC20B2C58A004A4592 /* URLParameterParse */,
+				189D66CD20B2C5A8004A4592 /* Extensions */,
+				189D667B20B26D84004A4592 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		189D66CC20B2C58A004A4592 /* URLParameterParse */ = {
+			isa = PBXGroup;
+			children = (
 				189D66A220B26F5B004A4592 /* LPURLParameterParse.swift */,
+			);
+			path = URLParameterParse;
+			sourceTree = "<group>";
+		};
+		189D66CD20B2C5A8004A4592 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				189D66A020B26E44004A4592 /* String+LPKit.swift */,
 				189D66C020B29A1B004A4592 /* UIDevice+LPKit.swift */,
 				189D66C220B29D78004A4592 /* UIImage+LPKit.swift */,
@@ -68,9 +85,8 @@
 				189D66C620B2A0F2004A4592 /* UIApplication+LPKit.swift */,
 				189D66C820B2C37B004A4592 /* Int+LPKit.swift */,
 				189D66CA20B2C41C004A4592 /* DispatchQueue+LPKit.swift */,
-				189D667B20B26D84004A4592 /* Info.plist */,
 			);
-			path = Sources;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

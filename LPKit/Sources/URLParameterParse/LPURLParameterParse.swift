@@ -15,6 +15,7 @@ public protocol LPURLParameterParse {
     /// 获取URL参数；支持URLString、URL、URLComponents
     var urlParameters: [AnyHashable : Any]? { get }
     
+    /// 获取一个URLComponents对象
     var asURLComponents: URLComponents? { get }
 }
 
