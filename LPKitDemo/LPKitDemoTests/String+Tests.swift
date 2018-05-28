@@ -1,5 +1,5 @@
 //
-//  String+UnicodeTests.swift
+//  String+Tests.swift
 //  LPKitDemoTests
 //
 //  Created by pengli on 2018/5/21.
@@ -8,7 +8,12 @@
 
 import XCTest
 
-class String_UnicodeTests: LPKitDemoBaseTests {
+class String_Tests: LPKitDemoBaseTests {
+    
+    func testSubString() {
+        let str = "I am a string."
+        print("subString=\(str[13, 100])")
+    }
     
     func testUnicode() {
         let originalString = "String+Unicode -> 字符串+Unicode编码"

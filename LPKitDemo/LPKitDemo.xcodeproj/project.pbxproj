@@ -16,7 +16,7 @@
 		189D66A720B27388004A4592 /* LPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 189D66A520B27388004A4592 /* LPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		189D66B220B27431004A4592 /* LPKitDemoBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66B120B27431004A4592 /* LPKitDemoBaseTests.swift */; };
 		189D66BB20B27516004A4592 /* LPURLParameterParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66BA20B27516004A4592 /* LPURLParameterParseTests.swift */; };
-		189D66BF20B292A6004A4592 /* String+UnicodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66BE20B292A6004A4592 /* String+UnicodeTests.swift */; };
+		189D66BF20B292A6004A4592 /* String+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66BE20B292A6004A4592 /* String+Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		189D66B120B27431004A4592 /* LPKitDemoBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPKitDemoBaseTests.swift; sourceTree = "<group>"; };
 		189D66B320B27431004A4592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189D66BA20B27516004A4592 /* LPURLParameterParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPURLParameterParseTests.swift; sourceTree = "<group>"; };
-		189D66BE20B292A6004A4592 /* String+UnicodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UnicodeTests.swift"; sourceTree = "<group>"; };
+		189D66BE20B292A6004A4592 /* String+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Tests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 			children = (
 				189D66B120B27431004A4592 /* LPKitDemoBaseTests.swift */,
 				189D66BA20B27516004A4592 /* LPURLParameterParseTests.swift */,
-				189D66BE20B292A6004A4592 /* String+UnicodeTests.swift */,
+				189D66BE20B292A6004A4592 /* String+Tests.swift */,
 				189D66B320B27431004A4592 /* Info.plist */,
 			);
 			path = LPKitDemoTests;
@@ -232,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189D66BF20B292A6004A4592 /* String+UnicodeTests.swift in Sources */,
+				189D66BF20B292A6004A4592 /* String+Tests.swift in Sources */,
 				189D66B220B27431004A4592 /* LPKitDemoBaseTests.swift in Sources */,
 				189D66BB20B27516004A4592 /* LPURLParameterParseTests.swift in Sources */,
 			);

@@ -60,14 +60,11 @@ public extension String {
         return isForceStop
     }
     
-    func lp_subString(start: Int, end: Int) -> String? {
+    func lp_subString(start: Int, end: Int) -> String {
         return self[start, end]
     }
     
-    subscript (start: Int, end: Int) -> String? {
-        guard start >= 0
-            && start < end
-            && start < count else { return nil }
+    subscript (start: Int, end: Int) -> String {
         let end = end >= count ? count : end
         
         let beginIndex = index(startIndex, offsetBy: start)
