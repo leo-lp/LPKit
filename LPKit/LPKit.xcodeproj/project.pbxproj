@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18983C9820BC0C4A009141F4 /* UIViewController+LPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18983C9720BC0C4A009141F4 /* UIViewController+LPKit.swift */; };
 		189D66A120B26E44004A4592 /* String+LPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66A020B26E44004A4592 /* String+LPKit.swift */; };
 		189D66A320B26F5B004A4592 /* LPURLParameterParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66A220B26F5B004A4592 /* LPURLParameterParse.swift */; };
 		189D66C120B29A1B004A4592 /* UIDevice+LPKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D66C020B29A1B004A4592 /* UIDevice+LPKit.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18983C9720BC0C4A009141F4 /* UIViewController+LPKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LPKit.swift"; sourceTree = "<group>"; };
 		189D667720B26D84004A4592 /* LPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		189D667B20B26D84004A4592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189D66A020B26E44004A4592 /* String+LPKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LPKit.swift"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				189D66C620B2A0F2004A4592 /* UIApplication+LPKit.swift */,
 				189D66C820B2C37B004A4592 /* Int+LPKit.swift */,
 				189D66CA20B2C41C004A4592 /* DispatchQueue+LPKit.swift */,
+				18983C9720BC0C4A009141F4 /* UIViewController+LPKit.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18983C9820BC0C4A009141F4 /* UIViewController+LPKit.swift in Sources */,
 				189D66CB20B2C41C004A4592 /* DispatchQueue+LPKit.swift in Sources */,
 				189D66C520B2A03C004A4592 /* UIView+LPKit.swift in Sources */,
 				189D66C720B2A0F2004A4592 /* UIApplication+LPKit.swift in Sources */,
