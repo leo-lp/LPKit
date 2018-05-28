@@ -60,6 +60,11 @@ public extension String {
         return isForceStop
     }
     
+    /// 字符串截取
+    ///
+    /// - Parameters:
+    ///   - start: 开始索引
+    ///   - end: 结束索引
     func lp_subString(start: Int, end: Int) -> String {
         return self[start, end]
     }
