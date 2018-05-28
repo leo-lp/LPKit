@@ -12,7 +12,7 @@ class String_Tests: LPKitDemoBaseTests {
     
     func testSubString() {
         let str = "I am a string."
-        print("subString=\(str[13, 100])")
+        print("subString=\(str[0, 100])")
     }
     
     func testUnicode() {
