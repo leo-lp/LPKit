@@ -59,6 +59,22 @@ public extension String {
         recursiveRange(with: startIndex..<endIndex)
         return isForceStop
     }
+    
+    func lp_subString(start: Int, end: Int) -> String? {
+        return self[start, end]
+    }
+    
+    subscript (start: Int, end: Int) -> String? {
+        guard start >= 0
+            && start < end
+            && start < count else { return nil }
+        let end = end >= count ? count : end
+        
+        let beginIndex = index(startIndex, offsetBy: start)
+        let endIndex = index(startIndex, offsetBy: end)
+        
+        return String(self[beginIndex..<endIndex])
+    }
 }
 
 // MARK: - 获取字符串的拼音首字母
